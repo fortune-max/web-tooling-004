@@ -1,9 +1,8 @@
-import "./App.css";
 import React from "react";
-import { Todo } from "./Todo.tsx";
+import { Todo } from "./Todo";
 
-const App = () => {
+function App() {
     return <Todo />;
-};
+}
 
 export default App;
